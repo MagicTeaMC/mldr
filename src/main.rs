@@ -7,9 +7,10 @@ use std::path::PathBuf;
 #[command(
     name = "mldr",
     version = "0.1",
-    about = "My TLDR, your own commands note! "
+    about = "My TLDR, your own commands note!"
 )]
 struct Cli {
+    /// The command name to show the note
     command: Option<String>,
 
     #[command(subcommand)]
