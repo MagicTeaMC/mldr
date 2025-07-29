@@ -8,6 +8,7 @@ license = "GPL-3.0"
 
 repository = "https://github.com/MagicTeaMC/mldr"
 readme = "README.md"
+keywords = ["tldr"]
 categories = ["command-line-utilities"]
 
 [dependencies]
